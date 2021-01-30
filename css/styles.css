@@ -1,0 +1,26 @@
+body .hero {
+    background-color: #252625;
+}
+
+nav a {
+    color: white;
+}
+
+img {
+    height: 900px;
+}
+
+
+.carousel-inner img {
+    max-height: 500px;
+    width: 100%;
+}
+
+.gris {
+    background-color: #f3f3f3;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+}
