@@ -1,26 +1,64 @@
-body .hero {
-    background-color: #252625;
+
+.space {
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-nav a {
+.wave {
+    position: absolute;
+   /* margin-top: -260px; */
+   bottom: 0px;
+   width: 100%;
+}
+
+.text-superior{
+    margin-top: -60px;
+}
+
+/* Animación para aumentar tamaño del botón */
+
+.button-anim{
+    transition: all ease-out 0.2s;
+}
+
+.button-anim:hover{
+    transform: scale(1.05);
+}
+
+.texto-2{
+    background-color: #D7D8DA;
+}
+
+.moradito {
+    color:rgb(88, 26, 146);
+}
+
+.wave-2 {
+    background-color: #D7D8DA;
+}
+
+.cielo {
+    background-color: #062a4e;
     color: white;
 }
 
-img {
-    height: 900px;
+.wave-3{
+    background-color: #062a4e;
 }
 
-
-.carousel-inner img {
-    max-height: 500px;
-    width: 100%;
+.cursiva {
+    font-style: italic;
 }
 
-.gris {
-    background-color: #f3f3f3;
+.card-border {
+    border: none;
 }
 
-.hero {
-    background-image: url('../images/hero.jpg');
-    background-size: cover;
+.celeste {
+    background-color: #a5dcf0;
+}
+
+.cohete-align{
+    left: 0%;
 }
